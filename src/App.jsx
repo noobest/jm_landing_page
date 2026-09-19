@@ -6,6 +6,7 @@ import Pricing from './sections/Pricing'
 
 const App = () => {
   return (
+    // test
    <main className='overflow-hidden'>
       <Header/>
       <Hero/>
