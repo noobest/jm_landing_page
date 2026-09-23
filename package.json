@@ -15,7 +15,8 @@
     "react": "^19.2.7",
     "react-countup": "^6.5.3",
     "react-dom": "^19.2.7",
-    "react-scroll": "^1.9.3"
+    "react-scroll": "^1.9.3",
+    "react-slidedown": "^2.4.7"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
