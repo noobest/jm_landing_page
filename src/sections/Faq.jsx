@@ -28,12 +28,19 @@ const Faq = () => {
 							<img src="/images/faq-logo.svg" alt="logo" className="size-1/2" />
 						</div>
 
-						<div className="relative flex-1 p-24">
+						<div className="relative flex-1 pt-24">
 							{faq.slice(0, halfLength).map((item, index) => (
 								<FaqItem key={item.id} item={item} index={index} />
 							))}
 						</div>
+
+						<div className="relative flex-1 lg:pt-24">
+							{faq.slice(halfLength).map((item, index) => (
+								<FaqItem key={item.id} item={item} index={halfLength + index} />
+							))}
+						</div>
 					</div>
+					<div className="faq-line_after absolute left-[calc(50%-1px)] top-0 -z-1 h-full w-0.5 bg-s2 max-lg:hidden" />
 				</div>
 			</Element>
 		</section>
